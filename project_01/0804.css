@@ -1,0 +1,43 @@
+* {
+  margin: 0 20px;
+}
+main {
+  display: flex;
+}
+
+header {
+  height: 150px;
+  display: flex;
+  align-items: center;
+}
+
+section {
+  width: 80%;
+}
+
+aside {
+  text-align: center;
+}
+
+iframe {
+  width: 200px;
+  height: 120px;
+}
+
+div {
+  margin-bottom: 50px;
+}
+
+h5 {
+  margin-bottom: 20px;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+}
+
+li {
+  font-size: 13px;
+  text-align: left;
+}
