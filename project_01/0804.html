@@ -31,9 +31,30 @@
     </header>
     <main id="main">
       <section>
-        <div class="">
-          <h3>Schedule</h3>
+        <div class="carousel">
+        <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="2000">
+              <img src="./img/커피프린스.jpg" class="d-block w-100" alt="커피프린스">
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="./img/쾌걸춘향.jpg" class="d-block w-100" alt="쾌걸춘향">
+            </div>
+            <div class="carousel-item">
+              <img src="./img/김삼순.png" class="d-block w-100" alt="김삼순">
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
         </div>
+        </div>
+      </div>
       </section>
       <aside>
         <div>
@@ -51,16 +72,16 @@
           </div>
           <div class="page">
             <h5>Page</h5>
-            <a href="https://code-sage.tistory.com/">Blog</a>
-            <a href="https://github.com/jjsh03">Github</a>
+            <a href="https://watcha.com/">Watcha</a>
+            <a href="https://www.netflix.com/kr/">Netflix</a>
           </div>
         </div>
-        <div>
-          <p>Reminder</p>
-          <ul class="reminderList"></ul>
-          <label for="reminder">note : </label
-          ><input type="text" id="remindContent" />
-          <button class="enter">enter</button>
+        <div class="container">
+            <h5>Reminder</h5>
+            <input id="inputField" type="text" >
+            <button id="addToDo"> + </button>  
+            <div class="to-dos" id="toDoList"> 
+        </div>  
         </div>
       </aside>
       <footer></footer>

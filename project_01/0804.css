@@ -1,14 +1,9 @@
-* {
-  margin: 0 20px;
-}
 main {
   display: flex;
 }
 
 header {
-  height: 150px;
-  display: flex;
-  align-items: center;
+  height: 200px;
 }
 
 section {
@@ -16,12 +11,13 @@ section {
 }
 
 aside {
-  text-align: center;
+  width: 20%;
+  margin-left: 20px;
 }
 
 iframe {
-  width: 200px;
-  height: 120px;
+  width: 70%;
+  height: 10%;
 }
 
 div {
@@ -37,7 +33,31 @@ h5 {
   flex-direction: column;
 }
 
+.cards {
+  display: flex;
+}
+
+html,
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+  width: 360px;
+}
+
+#inputFiled {
+  width: 300px;
+  height: 46px;
+  border: 1px solid black;
+  outline: none;
+  font-size: 25px;
+}
+
+.to-dos {
+  margin-top: 25px;
+}
+
 li {
-  font-size: 13px;
-  text-align: left;
+  list-style-type: none;
 }
